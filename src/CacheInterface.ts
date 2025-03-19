@@ -18,7 +18,7 @@ export interface CacheInterface {
      * @return any the value stored in cache, false if the value is not in the cache, expired,
      * or the dependency associated with the cached data has changed.
      */
-    get<T>(key: string): Promise<T>;
+    get<T>(key: string): Promise<T | boolean>;
 
     /**
      * Checks whether a specified key exists in the cache.
