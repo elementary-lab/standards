@@ -1,4 +1,5 @@
-import { EventInterface } from "src/EventInterface";
+import {EventInterface} from "./EventInterface";
+
 
 export interface EventBusInterface<T> {
     emit(eventName: string | EventInterface, ...args): boolean;

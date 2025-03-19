@@ -4,9 +4,6 @@
     "node_modules/**",
     "test/**/*"
   ],
-  // "include": ["src/**/*"],
-
-
   "compilerOptions": {
     "types": ["node"],
     "typeRoots": [
@@ -14,7 +11,8 @@
       "@types",
     ],
     "baseUrl": "./",
-    "rootDir": "./src",
+    "rootDir": "src",
+    "outDir": "dist",
     "paths": {
       "@elementary-lab/standards": ["src/*"]
     }
