@@ -3,7 +3,10 @@
 node_modules
 
 package-lock.json
-dist/
+src/*.d.ts
+src/*.d.ts.map
+src/*.js
+src/*.js.map
 
 # logs
 yarn-error.log
